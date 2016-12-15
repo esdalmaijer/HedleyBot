@@ -34,11 +34,8 @@ print(u"\nBot is starting the auto-replying Thread.")
 tweetbot.twitter_autoreply_start(u'Kendrick Lamar', database=u'simpleresponse',
 	keywords=None, prefix=None, suffix=u'#HeldeyLamar', maxconvdepth=None)
 
-# Run for 10 seconds.
-time.sleep(60)
-tweetbot.twitter_autoreply_stop()
-## Run indefinitively
-#while True:
-#	# Sleep for a minute, to avoid wasting resources.
-#	time.sleep(60)
+# Run indefinitively
+while True:
+	# Sleep for a minute, to avoid wasting resources.
+	time.sleep(60)
 	
